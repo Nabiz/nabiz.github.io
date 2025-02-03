@@ -7,14 +7,14 @@ const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
   75,
   //   window.innerWidth / window.innerHeight,
-  300 / 600,
+  300 / 500,
   0.1,
   1000
 );
 
 const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 // renderer.setSize(window.innerWidth, window.innerHeight);
-renderer.setSize(300, 600);
+renderer.setSize(300, 500);
 renderer.setAnimationLoop(animate);
 container.appendChild(renderer.domElement);
 // document.body.appendChild(renderer.domElement);
