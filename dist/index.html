@@ -8,37 +8,22 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
-    <style>
-      body {
-        background-color: #6fb0de;
-      }
-      canvas {
-        display: block;
-      }
-      #qa-model-container {
-        height: 600px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      #gaming-model-container {
-        height: 600px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    </style>
-    <script type="module" crossorigin src="/assets/index-Dl37M7ks.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script type="module" crossorigin src="/assets/index-VhpgydZH.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DJfuP6ZO.css">
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark" style="background-color: #5D83B1;">
+    <!-- <nav class="navbar sticky-top navbar-dark" style="background-color: #5D83B1;"> -->
       <div class="container">
         <a class="navbar-brand" href="#">Dawid Gwiżdż</a>
         <div>
-          <a href="#about" class="btn btn-outline-light">O mnie</a>
-          <a href="#skills" class="btn btn-outline-light">Technologie</a>
-          <a href="#experience" class="btn btn-outline-light">Doświadczenie</a>
-          <a href="#projects" class="btn btn-outline-light">Projekty</a>
-          <a href="#contact" class="btn btn-outline-light">Kontakt</a>
+          <a href="#about-anchor" class="btn btn-outline-light">O mnie</a>
+          <a href="#skills-anchor" class="btn btn-outline-light">Technologie</a>
+          <a href="#experience-anchor" class="btn btn-outline-light">Doświadczenie</a>
+          <a href="#projects-anchor" class="btn btn-outline-light">Projekty</a>
+          <a href="#contact-anchor" class="btn btn-outline-light">Kontakt</a>
         </div>
       </div>
     </nav>
@@ -50,44 +35,62 @@
     </header>
 
     <!-- About Section -->
+    <div id="about-anchor" style="top: -500px;"></div>
     <section id="about" class="container py-4">
       <div class="row">
         <div class="col-md-4 text-center">
-          <img class="rounded" style="max-width: 300px;" src="/assets/zdjecie-CUgv0Gbs.jpg"></img>
+          <img class="rounded" style="max-width: 300px; margin-bottom: 20px;" src="/assets/zdjecie-CUgv0Gbs.jpg"></img>
         </div>
         <div class="col-md-8">
-          <h2>Dawid Gwiżdż</h2>
-          <p>
-            Nazywam się Dawid Gwiżdż, mam 27 lat. Od zawsze interesowałem się
-            matematyką, fizyką i informatyką, a moja pasja do tych przedmiotów w
-            szkole sprawiła, że postanowiłem zostać informatykiem. Fascynują
-            mnie gry komputerowe, ponieważ łączą w sobie technologię oraz
-            kreatywność, co daje nieograniczone możliwości twórcze. W wolnym
-            czasie gram na gitarze, a także uprawiam sport: piłkę nożną i
-            lacrosse. Obecnie pracuję jako QA Engineer, gdzie dbam o jakość
+          <!-- <h2>O mnie</h2> -->
+          <p class="fs-4">
+            Nazywam się <b>Dawid Gwiżdż</b>, mam 27 lat.
+          </p>
+          <p class="fs-4">
+            Od zawsze interesowałem się
+            matematyką 🧮, fizyką 🏗️ oraz informatyką 🖥️
+          </p>
+          <p class="fs-4">
+            Moja pasja do tych przedmiotów w
+            szkole sprawiła, że postanowiłem zostać programistą 🤓
+          </p>
+          <p class="fs-4">
+            Fascynują mnie gry komputerowe 🕹️, ponieważ łączą w sobie technologię ⚙️ oraz
+            kreatywność 🎨, co daje nieograniczone możliwości twórcze.
+          </p>
+          <p class="fs-4">
+            W wolnym czasie gram na gitarze 🎸, a także uprawiam sporty: lacrosse 🥍 i piłkę nożną ⚽
+          </p>
+          <p class="fs-4">
+            Obecnie pracuję jako QA Engineer 👨‍💻, dbam o jakość
             produktów i procesów.
+            </p>
           </p>
         </div>
       </div>
     </section>
 
     <!-- Technology Section -->
+    <div id="skills-anchor" style="top: -65px;"></div>
+    <div class="text-white section-negative">
     <section id="skills" class="container text-center py-4">
-      <h2>Technologie</h2>
+      <h2>Technologie TODO</h2>
       <p>Python Java C# Unity3D Godot</p>
     </section>
+    </div>
 
     <!-- Exp Section -->
+    <div id="experience-anchor" style="top: -65px;"></div>
     <section id="experience" class="container py-4">
-      <h2 class="text-center">Doświadczenie</h2>
+      <h2 class="text-center">Doświadczenie TODO</h2>
       
       <div class="row">
       <div class="col-md-4 order-md-last">
         <div id="qa-model-container"></div>
       </div>
         <div class="col-md-8">
-          <h4>QA Engineer</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <h3>Automatyzacja Testów</h3>
+          <p class="fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
       </div>
 
@@ -97,54 +100,91 @@
 
         </div>
           <div class="col-md-8">
-            <h4>Gry komputerowe</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h3>Gry Komputerowe</h3>
+            <p class="fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </div>
         </div>
     </section>
 
     <!-- Projects Section -->
+    <div id="projects-anchor" style="top: -65px;"></div>
+    <div class="text-white section-negative">
     <section id="projects" class="container text-center py-4">
-      <h2>Projects</h2>
+      <h2>Projekty</h2>
       <div class="row">
-        <div class="col-md-4 mt-1">
+        <div class="col-md-4 mt-1 d-flex align-items-stretch">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Symulator samochdou VR z okulografią</h5>
+              <p class="card-text">Projekt do mojej pracy w magisterskiej, w której badałem możliwośći wykonywania badań okulograficznych w symulacji VR</p>
+              <div><img class="rounded" style="max-width: 350px; margin-bottom: 20px;" src="/assets/car-DA5OVGLD.PNG"></img></div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-1">
+        <div class="col-md-4 mt-1 d-flex align-items-stretch">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Lumencraft</h5>
+              <p class="card-text">Pomagałem przy produkcji gry w moim ulubionym silniku Godot Engine</p>
+              <div><img class="rounded" style="max-width: 350px; margin-bottom: 20px;" src="/assets/lumencraft-CY2oBdYW.jpg"></img></div>
+              <a target="_blank" rel="noopener noreferrer" href="https://store.steampowered.com/app/1713810/Lumencraft/" class="btn btn-outline-light">Zagraj na Steam</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-1 d-flex align-items-stretch">
           <div class="card ">
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Mini gry</h5>
+              <p class="card-text">Zapraszam na moje itch.io, gdzie znajdują się mniejsze projekty i gry z Game Jamów</p>
+              <div>
+                <img class="rounded" style="max-width: 350px; margin-bottom: 20px;" src="/assets/clean-CYwilwnk.jpg"></img>
+              </div>
+              <a target="_blank" rel="noopener noreferrer" href="https://nabiz.itch.io/" class="btn btn-outline-light">nabiz.itch.io</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mt-1">
+        </div>
+
+        <div class="row">
+        <div class="col-md-4 mt-1 d-flex align-items-stretch">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Odlewniczy Samolot</h5>
+              <p class="card-text">Stworzyliśmy aplikację VR do celów marketingowych w firmie Coact</p>
+              <div><img class="rounded" style="max-width: 320px; margin-bottom: 20px;" src="/assets/airplane-CrXExKLu.PNG"></img></div>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.coact.pl/" class="btn btn-outline-light">Coact</a>
             </div>
           </div>
         </div>
       </div>
+
     </section>
+    </div>
 
     <!-- Contact Section -->
+    <div id="contact-anchor" style="top: -65px;"></div>
     <section id="contact" class="container text-center py-4">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <h2>Kontakt</h2>
+      <div class="col-md-6 mx-auto">
+      <p class="fs-5">Jeżeli chcesz się ze mną skontaktować po raz pierwszy, możesz to zrobić przez LinkedIn.</p>
+      <p class="fs-5">Najszybciej można mnie złapać na Messengerze i Discordzie, ale nie mam pewności czy wiadomość nie trafi do Inne/Spamu etc.</p>
+      <p class="fs-5">Ze względów bezpieczeństwa nie umieszam tu numeru telefonu i maila :P</p>
+      </div>
+    <a href="https://www.linkedin.com/in/dawid-g-a05b84278/" target="_blank">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://discord.com/users/773676769583562803" target="_blank">
+      <i class="bi bi-discord"></i>
+    </a>
+    <a href="https://m.me/nabiznabobi" target="_blank">
+      <i class="bi bi-messenger"></i>
+    <a href="https://github.com/Nabiz" target="_blank">
+      <i class="bi bi-github"></i>
+    </a>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="text-white text-center py-3" style="background-color: #5D83B1;">
       <p>&copy; 2025 Dawid Gwiżdż</p>
       <p>
         Modele 3D na stronie wykonane przy użyciu kreatora:
