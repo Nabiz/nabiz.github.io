@@ -58,7 +58,7 @@ loader.load(
 
 function animate() {
   if (mixer) {
-    mixer.update(0.016); // Roughly 60 FPS (adjust as needed)
+    mixer.update(0.008); // Roughly 60 FPS (adjust as needed)
   }
   renderer.render(scene, camera);
 }
